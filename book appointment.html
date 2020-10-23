@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Appointment</title>
+    </head>
+    <link href="style.css" rel="stylesheet">
+   
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous">
+
+
+
+    <body>
+        <section id="navbar">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" 
+                data-toggle="collapse" data-target="#navbarNav" 
+                aria-controls="navbarNav" aria-expanded="false"
+                 aria-label="Toggle navigation">
+                 <i class="fa fa-bars" ></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item ">
+                      <a class="nav-link" href="index.html">Home </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="diet plans.html">Diet plans</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="Contactus.html">Contact us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about us.html">About Us</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                      </li>
+                     
+                  </ul>
+                 
+                </div>
+                <button type="button" class="btn btn-success">Appointment</button>
+            </nav>
+            </section>
+ 
+       <div class="container">
+           <form class="col-md-6" id="myForm2">
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Name</label>
+                <input type="Text" class="form-control" id="name" >
+            </div>
+               <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlInput1">City</label>
+                <input type="Text" class="form-control" id="city" >
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Country</label>
+                <input type="Text" class="form-control" id="country" >
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Age</label>
+                <input type="number" class="form-control" id="age" >
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Height</label>
+                <input type="Height" class="form-control" id="height" >
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Weight</label>
+                <input type="Number" class="form-control" id="weight">
+              </div>
+               <div class="form-group">
+                <label for="exampleFormControlSelect1">Gender</label>
+                <select class="form-control" id="gender">
+                  <option>Male</option>
+                  <option>Female</option>
+                  <option>Others</option>
+                 
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlSelect1">Martial Status</label>
+                <select class="form-control" id="martialstatus">
+                  <option>Single</option>
+                  <option>Maried</option>
+                  
+                </select>
+              </div>
+            
+              <label>Activity level</label><br>
+              <div class="form-group">
+                <label for="exampleFormControlSelect1">Allergic To Any Food</label>
+                <select class="form-control" id="food">
+                  <option>Yes</option>
+                  <option>No</option>
+                 
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlInput1">If Yes Mention</label>
+                <input type="Text" class="form-control" id="describefood" >
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Daily Food Pattern (Brakefast,Lunch,Dinner)</label>
+                <input type="Text" class="form-control" id=" food-pattern2" >
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Daily Water Intake(Glasses)</label>
+                <input type="Text" class="form-control" id="water" >
+              </div>
+              
+              <div class="form-group">
+                <label for="exampleFormControlSelect1">Any Medical History</label>
+                <select class="form-control" id="medicalhistory">
+                  <option>Yes</option>
+                  <option>No</option>
+                
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlSelect1">Diesease</label>
+                <select class="form-control" id="diesease">
+                  <option>Cancer</option>
+                  <option>Diabetics</option>
+                  <option>PCOS</option>
+                  <option>HyperTension</option>
+                  <option>Tyriod</option>
+                  <option>Depression</option>
+                  <option>Gut dieseases</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Describe Your Medical History</label>
+                <input type="Text" class="form-control" id="medicalhistory2">
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlSelect1">Select Your Customized Plan</label>
+                <select class="form-control" id="plans">
+                  <option>Fat lose</option>
+                  <option>Weight Gain</option>
+                  <option> FOR PCOS</option>
+                  <option > For HyperTension</option>
+                  <option> For Tyriod</option>
+                  <option> For Depression</option>
+                  <option> For Gut dieseases</option>
+                </select>
+              </div>
+
+             
+              
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1">Describe Your Problem if Any</label>
+                <textarea class="form-control" id="problem" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary" id="submit">Submit</button>
+
+           </form>
+       </div>
+         
+      
+ 
+ <section id ="footer">
+   <div class="container">
+     <div class="row">
+       <div class=" col-md-4 footer-box mt-4">
+         <p>
+           cawhufyhfhncnbjhuhfhearnvcejsvuev
+           vanvjberhgvuhyeraguv n b hduvhuaehvjknjvb
+           jvn hbvguenevjhauhvabfakr
+           fanvbeuashuaehfgaenvjsehguhre
+           gjajnvuhaeugeajnvjhvuarsrfgajfhnurh
+           jvbuhasrgfyesgfjdrnvuhdgf7urrffjhuy\ye\
+         </p>
+       </div>
+       
+       <div class="col-md-4 footer-box mt-4" style="font-weight: 600;font-size: 36px;color: white;">
+                <p><b>Contact Us</b></p>
+         <a href="#"><i class="fa fa-volume-control-phone" aria-hidden="true"></i>+923007992261</a><br>
+         <a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i>faiza5951@gmail.com</a>
+       </div>
+       <div class="col-md-4 footer-box">
+       
+ 
+         <section id="social-box" style="background: none;">
+           <div class="container text-center" >
+             <p>
+              <b>Social contact</b>
+             </p>
+               
+             
+           <div class="social-icons" >
+           
+           <a href="#" ><img  src="social media/facebook.png"></a>
+            <a href="#" ><img src="social media/instagram.png"></a>
+            <a href="#"><img src="social media/snapchat.png"></a>
+            <a href="#"><img src="social media/whatsapp.png"></a>
+          </div>
+          </div>
+         </section>
+    </body>
+    <script src="appointment.js"></script>
+</html>
